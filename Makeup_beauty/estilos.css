@@ -1,0 +1,120 @@
+body{
+    margin:0;
+    background:#fff5f8;
+    font-family:Arial, sans-serif;
+}
+
+/* ENCABEZADO */
+
+.cajapadre{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background:pink;
+    padding:20px;
+    border-radius:10px;
+    box-sizing:border-box;
+}
+
+.logo{
+    width:150px;
+    border-radius:50%;
+}
+
+.texto{
+    flex:1;
+    margin-left:20px;
+}
+
+.texto h1{
+    margin:0;
+    color:#d63384;
+}
+
+.texto h3{
+    margin-top:5px;
+}
+
+/* MENÚ */
+
+.menu{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+
+.menu li{
+    margin-left:10px;
+}
+
+.menu li a{
+    display:block;
+    padding:15px 20px;
+    background:black;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.menu li a:hover{
+    background:#d63384;
+}
+
+/* CATEGORÍAS */
+
+.categorias{
+    background:#fde687;
+    border:2px solid #f1daad;
+    border-radius:10px;
+    text-align:center;
+    margin-top:5px;
+    padding:5px;
+}
+
+.categorias h2{
+    margin:0;
+}
+
+/* CAJA DE LA IMAGEN */
+
+.cajahijo{
+    width:100%;
+    margin-top:5px;
+    padding:10px;
+    background:#f785c3;
+    border:3px solid #f177bf;
+    border-radius:20px;
+    box-sizing:border-box;
+    text-align:center;
+}
+
+.cajahijo img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+    display:block;
+    border-radius:15px;
+}
+
+.cajahijo h1{
+    margin-top:15px;
+}
+
+.cajahijo p{
+    font-size:18px;
+}
+
+footer{
+    background-color: #eeb03d;
+    color: rgb(26, 13, 13);
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 15px 15px 0 0;
+}
+
+footer p{
+    margin: 5px;
+}
