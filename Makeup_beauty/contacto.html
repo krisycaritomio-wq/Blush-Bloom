@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+
+    <style>
+        .contact-section {
+        background: linear-gradient(135deg, #f8d7e0 0%, #f9e8d8 100%);
+        padding: 120px 20px;
+        text-align: center;
+}
+
+.contact-section .title {
+  font-family: 'Playfair Display', serif;
+  font-size: 4.2rem;
+  color: #d44a7e;
+  margin-bottom: 12px;
+}
+
+.contact-section .subtitle {
+  font-size: 1.45rem;
+  color: #c15a7c;
+  margin-bottom: 70px;
+  font-weight: 300;
+}
+
+.contact-section .content-box {
+  background: white;
+  border-radius: 24px;
+  padding: 60px 55px;
+  box-shadow: 0 15px 40px rgba(212, 74, 126, 0.12);
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 28px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #d44a7e;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 14px 18px;
+  border: 2px solid #f0d0dc;
+  border-radius: 12px;
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #d44a7e;
+  box-shadow: 0 0 0 4px rgba(212, 74, 126, 0.1);
+}
+
+.contact-info {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+nav a {
+    text-decoration: none;
+    color: #e78d9e;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #c86b80;
+}
+
+.contact-info p {
+  margin: 12px 0;
+}
+
+.contact-link {
+  color: #d44a7e;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive para Contacto */
+@media (max-width: 768px) {
+  .contact-section .title {
+    font-size: 3.2rem;
+  }
+  .contact-section .content-box {
+    padding: 45px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-section .content-box {
+    padding: 40px 25px;
+  }
+}
+    </style>
+
+</head>
+<body>
+
+
+        <nav class="navegacion">
+                <a href="../Makeup_beauty/Inicio.html">Inicio</a>
+                <a href="Productos/index.html">Productos</a>
+                <a href="../Makeup_beauty/Nosotros/acerca de nosotros.html">Nosotros</a>
+                <a href="../Makeup_beauty/contacto.html">Contacto</a>
+        </nav>
+    
+    <section class="contact-section">
+  <div class="container">
+    
+    <h1 class="title">Contáctanos</h1>
+    <p class="subtitle">Estamos aquí para escucharte y ayudarte a florecer</p>
+
+    <div class="content-box">
+      <form id="contact-form">
+        
+        <div class="form-group">
+          <label>Nombre completo</label>
+          <input type="text" placeholder="Tu nombre" required>
+        </div>
+
+        <div class="form-group">
+          <label>Correo electrónico</label>
+          <input type="email" placeholder="tu@email.com" required>
+        </div>
+
+        <div class="form-group">
+          <label>Mensaje</label>
+          <textarea placeholder="¿En qué podemos ayudarte?" rows="6" required></textarea>
+        </div>
+
+        <button type="submit" class="cta-button">
+          🌸 Enviar mensaje
+        </button>
+      </form>
+    </div>
+
+    <div class="contact-info">
+      <p>O escríbenos directamente a:</p>
+      <a href="mailto:hola@blushandbloom.com" class="contact-link">hola@blushandbloom.com</a>
+      <p style="margin-top: 20px;">📲 WhatsApp: +503 estoesunnumeroreal</p>
+      <p>📷 Instagram: <a href="#" class="contact-link">@blushandbloom</a></p>
+    </div>
+
+  </div>
+</section>
+</body>
+</html>
